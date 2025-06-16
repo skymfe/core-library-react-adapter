@@ -517,10 +517,10 @@
     argparse "~1.0.9"
     string-argv "~0.3.1"
 
-"@skymfe/core-library@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@skymfe/core-library/-/core-library-0.0.3.tgz#23ab79479f3b77f8318c06fc537d346be314529f"
-  integrity sha512-GCvvAt8WQ/6ihi0iWhZhfjwjW0eELJ6iIS8FzrFWNrqYn3JDrxEeCOxte3emPpIYnMsvXl1dweWT45jshdrQoA==
+"@skymfe/core-library@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@skymfe/core-library/-/core-library-0.0.4.tgz#7882153557bd0c9e7e7495554e347f53136d572b"
+  integrity sha512-bRsmoLun75WH76JZVy3wrvXAbxW+jXlsbUT2/2Wovnqwko2GR+PHWI67pDkOPHLDSNsKBW56ZBbVv+QN9HpQZQ==
   dependencies:
     lodash.merge "^4.6.2"
 

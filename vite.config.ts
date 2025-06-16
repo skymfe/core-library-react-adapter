@@ -12,18 +12,17 @@ export default defineConfig({
     react(),
     dts({
       tsconfigPath: "./tsconfig.lib.json",
+      include: ["lib"],
     }),
   ],
   build: {
     lib: {
-      name: "core-library",
-      entry: {
-        auth: resolve(__dirname, "lib/auth.ts"),
-        "http-client": resolve(__dirname, "lib/http-client.ts"),
-      },
+      name: "core-library-react-adapter",
+      fileName: "core-library-react-adapter",
+      entry: resolve(__dirname, "lib/main.ts"),
     },
     rollupOptions: {
-      external: [],
+      external: ["react", "react/jsx-runtime"],
       output: {
         globals: {},
       },
